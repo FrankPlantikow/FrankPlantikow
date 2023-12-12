@@ -1,0 +1,33 @@
+
+[user]
+	name = FrankPlantikow
+	email = frank@plantikow.eu
+[core]
+	editor = notepad.exe
+[help]
+	autocorrect = 1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = D:/Documents/Meine-GitHub-Projekt
+	directory = D:/Documents/Meine-GitHub-Projekt/FrankPlantikow
+	directory = D:/Documents/Meine-GitHub-Projekt/Raumklima
+	directory = D:/Documents/Meine-GitHub-Projekt/Wetterstation
+	directory = D:/Documents/Meine-GitHub-Projekt/BauProjekte
+	directory = D:/Documents/Meine-GitHub-Projekt/git-bsp
+	directory = D:/Documents/Meine-GitHub-Projekt/Radageraet
+	directory = D:/Documents/Meine-Arduino
+	directory = D:/Documents/Meine-eBuecher
+
+[credential "helperselector"]
+	selected = manager-ui
+[init]
+	defaultBranch = master
+[http]
+	sslVerify = true
+	sslBackend = schannel
+[color]
+	ui = false
