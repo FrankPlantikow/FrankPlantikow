@@ -8,7 +8,7 @@ sudo apt install raspberrypi-ui-mods
 sudo apt-get install gparted --yes
 oder
 sudo apt install gparted --yes
-
+sudo apt install libfuse2 --yes
 sudo apt-get install realvnc-vnc-server --yes
 sudp apt-get install realvnc-vnc-viewer --yes
 sudo apt-get install vlc --yes
@@ -19,7 +19,7 @@ sudo apt-get install arduino --yes
 sudo apt-get install code --yes
 sudo apt update
 
-sudo apt-get install gparted --yes && sudo apt-get install realvnc-vnc-server --yes && sudp apt-get install realvnc-vnc-viewer --yes && sudo apt-get install vlc --yes && sudo apt-get remove chromium --yes && sudo apt-get install chromium-browser --yes && sudo apt install rpi-imager --yes && sudo apt-get install arduino --yes && sudo apt-get install code --yes && sudo apt update --yes && sudo apt install snapd  --yes && sudo reboot
+sudo apt-get install gparted --yes && sudo apt-get install realvnc-vnc-server --yes && sudp apt-get install realvnc-vnc-viewer --yes && sudo apt-get install vlc --yes && sudo apt-get remove chromium --yes && sudo apt-get install chromium-browser --yes && sudo apt install rpi-imager --yes && sudo apt-get install arduino --yes && sudo apt-get install code --yes && sudo apt update --yes && sudo apt install snapd  --yes && sudo apt install libfuse2 --yes && sudo reboot
 
 sudo apt install snapd  --yes
 sudo reboot
