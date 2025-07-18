@@ -5,3 +5,4 @@
  create mode 100644 git-sync-log.txt
  
 --- Bearbeite: E:\Documents\Meine GitHub-Projekt\FrankPlantikow 
+ 
