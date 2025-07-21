@@ -6,3 +6,7 @@ To https://github.com/FrankPlantikow/FrankPlantikow.git
    044680d..e615c4b  master -> master
 To https://github.com/FrankPlantikow/FrankPlantikow.git
    e615c4b..2f524f5  master -> master
+warning: in the working copy of 'git-sync-error.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git-sync-log.txt', LF will be replaced by CRLF the next time Git touches it
+To https://github.com/FrankPlantikow/FrankPlantikow.git
+   2f524f5..00dd4a3  master -> master
