@@ -108,3 +108,22 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,
 hint: use 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+warning: in the working copy of 'git-sync-error.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git-sync-log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git-sync-error.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git-sync-log.txt', LF will be replaced by CRLF the next time Git touches it
+error: Your local changes to the following files would be overwritten by merge:
+	git-sync-error.txt
+	git-sync-log.txt
+Please commit your changes or stash them before you merge.
+Aborting
+error: unable to unlink old 'git-sync-error.txt': Invalid argument
+error: unable to unlink old 'git-sync-log.txt': Invalid argument
+fatal: read-tree failed
+To github.com:FrankPlantikow/FrankPlantikow.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'github.com:FrankPlantikow/FrankPlantikow.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
