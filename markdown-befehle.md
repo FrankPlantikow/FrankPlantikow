@@ -14,6 +14,12 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 ##### H5
 ###### H6
 ```
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 ---
 
@@ -25,6 +31,10 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 ***Fett & Kursiv***
 ~~Durchgestrichen~~
 ```
+**Fett**
+*Kursiv*
+***Fett & Kursiv***
+~~Durchgestrichen~~
 
 ---
 
@@ -37,6 +47,9 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 - Punkt
   - Unterpunkt
 ```
+- Punkt
+- Punkt
+  - Unterpunkt
 
 **Geordnet:**
 
@@ -45,6 +58,9 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 2. Zweiter Punkt
    1. Unterpunkt
 ```
+1. Erster Punkt
+2. Zweiter Punkt
+   1. Unterpunkt
 
 ---
 
@@ -55,6 +71,9 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 
 ![Alt-Text](https://example.com/bild.png)
 ```
+[Linktext](https://example.com)
+
+![Alt-Text](https://example.com/bild.png)
 
 ---
 
@@ -64,6 +83,8 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 > Einfaches Zitat
 >> Verschachtelt
 ```
+> Einfaches Zitat
+>> Verschachtelt
 
 ---
 
@@ -74,6 +95,7 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 ```markdown
 `Befehl`
 ```
+`Befehl`
 
 **Block:**
 
@@ -81,7 +103,9 @@ Die wichtigsten Befehle für einfache Formatierungen in einer `README.md`.
 ```sprache
 Code hier
 '````
-
+````
+```sprache
+Code hier
 ````
 
 ---
@@ -93,6 +117,10 @@ Code hier
 | A        | B        | C        |
 | 1        | 2        | 3        |
 ````
+| Spalte 1 | Spalte 2 | Spalte 3 |
+|----------|----------|----------|
+| A        | B        | C        |
+| 1        | 2        | 3        |
 
 ---
 
@@ -101,6 +129,7 @@ Code hier
 ```markdown
 ---
 ```
+---
 
 ---
 
@@ -110,6 +139,8 @@ Code hier
 - [ ] Offene Aufgabe
 - [x] Erledigte Aufgabe
 ```
+- [ ] Offene Aufgabe
+- [x] Erledigte Aufgabe
 
 ---
 
@@ -118,6 +149,7 @@ Code hier
 ```markdown
 :smile: :rocket: :+1:
 ```
+:smile: :rocket: :+1:
 
 ---
 
@@ -131,6 +163,12 @@ Code hier
   Versteckter Inhalt
 </details>
 ```
+<b>Fetter Text</b>
+
+<details>
+  <summary>Aufklappen</summary>
+  Versteckter Inhalt
+</details>
 
 ---
 
